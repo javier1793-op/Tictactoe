@@ -1,5 +1,5 @@
 ## Screenshot
-![Design preview ](./src/assets/img/captura.png)
+![Design preview ](./assets/img/captura.png)
 
 ### Links
 

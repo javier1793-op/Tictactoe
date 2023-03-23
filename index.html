@@ -23,17 +23,41 @@
         <div class="players">
             <button
                 class="player"
-                onclick="playerSelect('x')"
+                onclick="playerSelect('X')"
             >
                 <img src="./assets/img/horda.png" alt="horda">
             </button>
             <button
                 class="player"
-                onclick="playerSelect('y')"
+                onclick="playerSelect('O')"
             >
                 <img src="./assets/img/alianza.png" alt="alianza">
             </button>
         </div>
+    </div>
+    <div class="play-board">
+        <table>
+            <tr>
+                <td class="cell" id="0"></td>
+                <td class="cell" id="1"></td>
+                <td class="cell" id="2"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="3"></td>
+                <td class="cell" id="4"></td>
+                <td class="cell" id="5"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="6"></td>
+                <td class="cell" id="7"></td>
+                <td class="cell" id="8"></td>
+            </tr>
+        </table>
+        <button class="reset" onclick="startReset()">Reset</button>
+    </div>
+    <div class="winner">
+        <h3></h3>
+        <button class="reset" onclick="startReset()">Play Again</button>
     </div>
 </body>
     <script src="./script.js"></script>
